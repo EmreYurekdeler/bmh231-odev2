@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yozgat Bozok Üniversitesi Etkinlikleri</title>
+  <link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+
+  <header>
+    <a href="/" class="logo">Yozgat Bozok Üniversitesi Etkinlik Faliyetleri</a>
+    <nav>
+      <a href="#etkinlikler">Etkinlikler</a>
+      <a href="#oner">Etkinlik Öner</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="etkinlikler">
+      <h1>Yaklaşan Etkinlikler</h1>
+
+      <div class="araclar">
+        <div>
+          <label for="arama">Başlıkta ara:</label>
+          <input type="text" id="arama" placeholder="örn. git">
+        </div>
+        <div class="filtreler">
+          <button class="filtre secili" data-tur="tumu">Tümü</button>
+          <button class="filtre" data-tur="atolye">Atölye</button>
+          <button class="filtre" data-tur="soylesi">Söyleşi</button>
+          <button class="filtre" data-tur="topluluk">Topluluk</button>
+        </div>
+      </div>
+
+      <p id="mesaj"></p>
+      <div id="liste" class="kartlar"></div>
+    </section>
+
+    <section id="oner">
+      <h2>Etkinlik Öner</h2>
+      <form id="form">
+        <label for="ad">Etkinlik adı</label>
+        <input type="text" id="ad">
+
+        <label for="tarih">Tarih</label>
+        <input type="date" id="tarih">
+
+        <label for="eposta">E-posta</label>
+        <input type="text" id="eposta">
+
+        <button type="submit">Gönder</button>
+        <div id="form-mesaj"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Yozgat Bozok Üniversitesi Etkinlikleri </p>
+  </footer>
+
+  <script src="betik.js"></script>
+</body>
+
+</html>
