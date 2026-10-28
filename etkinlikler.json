@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "baslik": "Web Programlama Atölyesi",
+    "tur": "atolye",
+    "tarih": "2026-11-12",
+    "yer": "Mühendislik Fakültesi, Bilgisayar Laboratuvarı 2",
+    "kontenjan": 30
+  },
+  {
+    "id": 2,
+    "baslik": "Bozok Yazılım Topluluğu Tanışma Toplantısı",
+    "tur": "topluluk",
+    "tarih": "2026-11-14",
+    "yer": "Erdoğan Akdağ Kültür Merkezi, Fuaye",
+    "kontenjan": 80
+  },
+  {
+    "id": 3,
+    "baslik": "Yapay Zekâ ve Mühendislikte Gelecek Söyleşisi",
+    "tur": "soylesi",
+    "tarih": "2026-11-19",
+    "yer": "Rektörlük Konferans Salonu",
+    "kontenjan": 200
+  },
+  {
+    "id": 4,
+    "baslik": "Git ve GitHub Atölyesi",
+    "tur": "atolye",
+    "tarih": "2026-11-24",
+    "yer": "Mühendislik Fakültesi, Bilgisayar Laboratuvarı 1",
+    "kontenjan": 25
+  },
+  {
+    "id": 5,
+    "baslik": "Mezunlarla Kariyer Söyleşisi",
+    "tur": "soylesi",
+    "tarih": "2026-11-26",
+    "yer": "Mühendislik Fakültesi, Amfi B",
+    "kontenjan": 150
+  },
+  {
+    "id": 6,
+    "baslik": "Oyun Geliştirme Topluluğu",
+    "tur": "topluluk",
+    "tarih": "2026-12-03",
+    "yer": "Mühendislik Fakültesi, Bilgisayar Laboratuvarı 3",
+    "kontenjan": 50
+  },
+  {
+    "id": 7,
+    "baslik": "Arduino ile Akıllı Kampüs Atölyesi",
+    "tur": "atolye",
+    "tarih": "2026-12-10",
+    "yer": "Elektrik-Elektronik Laboratuvarı",
+    "kontenjan": 20
+  }
+]
