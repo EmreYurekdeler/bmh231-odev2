@@ -1,0 +1,172 @@
+:root {
+  --ana-renk: #c8102e;
+  --koyu-renk: #1b1b1f;
+  --arka-plan: #f5f5f7;
+  --hata-renk: #a30d24;
+  --basari-renk: #2e7d32;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--arka-plan);
+  color: #222;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: var(--ana-renk);
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--koyu-renk);
+}
+
+
+.araclar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.filtre {
+  padding: 8px 14px;
+  border: 1px solid var(--ana-renk);
+  border-radius: 4px;
+  background-color: white;
+  color: var(--ana-renk);
+  cursor: pointer;
+}
+
+.filtre.secili {
+  background-color: var(--ana-renk);
+  color: white;
+}
+
+
+.kartlar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.kart {
+  background-color: white;
+  padding: 15px;
+  border-radius: 6px;
+  border-top: 4px solid var(--ana-renk);
+}
+
+.kart h3 {
+  margin-top: 0;
+}
+
+.kart p {
+  margin: 5px 0;
+}
+
+.tur {
+  font-size: 13px;
+  color: gray;
+}
+
+
+#oner {
+  background-color: white;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 6px;
+  max-width: 500px;
+}
+
+#form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#form input {
+  width: 100%;
+}
+
+#form button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--ana-renk);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hata {
+  color: var(--hata-renk);
+}
+
+.basarili {
+  color: var(--basari-renk);
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+  background-color: var(--koyu-renk);
+  color: white;
+}
+
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .araclar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
