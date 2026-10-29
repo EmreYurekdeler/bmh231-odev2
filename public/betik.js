@@ -60,7 +60,7 @@ function listele() {
     baslik.textContent = e.baslik;
 
     const tarih = document.createElement("p");
-    tarih.textContent = "Tarih: " + e.tarih;
+    tarih.textContent = "Tarih: " + new Date(e.tarih).toLocaleDateString("tr-TR");
 
     const yer = document.createElement("p");
     yer.textContent = "Yer: " + e.yer;
